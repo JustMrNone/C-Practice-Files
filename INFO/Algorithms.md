@@ -1,4 +1,4 @@
-**Introduction to Computer Algorithms**
+# Introduction to Computer Algorithms
 
 Computer algorithms are step-by-step procedures or formulas for solving problems. They form the foundation of computer science and are used in almost every program to achieve tasks efficiently. Understanding algorithms is essential for writing efficient code, as they allow us to manipulate data, optimize resources, and solve complex problems systematically.
 
@@ -99,7 +99,7 @@ In algorithm analysis, Big-O (O), Omega (Ω), and Theta (Θ) notations are used 
 - **Omega (Ω)** gives the **best-case** lower bound, ensuring the algorithm doesn't perform better than a certain limit.
 - **Theta (Θ)** describes the **tight bound**, meaning the algorithm's time complexity is bound within the same limits in both the best and worst cases.
 
-### Visual Example:
+### Visual Example
 
 Imagine an algorithm that performs between nnn and n2n^2n2 operations depending on the input:
 
@@ -107,20 +107,20 @@ Imagine an algorithm that performs between nnn and n2n^2n2 operations depending 
 - **Ω(n)**: In the best case, the algorithm performs nnn operations, so it's lower-bounded by nnn.
 - **Θ(n \log n)**: If the algorithm always performs nlog⁡nn \log nnlogn operations regardless of the input size, then nlog⁡nn \log nnlogn is a tight bound, meaning the running time grows at the rate of nlog⁡nn \log nnlogn in all cases.
 
-### Practical Examples:
+### Practical Examples
 
-- **Binary Search**:
+- **Binary Search**
 
 - Best case (finds target in the middle of the array): Ω(1)\Omega(1)Ω(1).
 - Worst case (divides the array completely until the target is found or not): O(log⁡n)O(\log n)O(logn).
 - If its behavior is consistently logarithmic: Θ(log⁡n)\Theta(\log n)Θ(logn).
-- **Bubble Sort**:
+- **Bubble Sort**
 
 - Best case (already sorted): Ω(n)\Omega(n)Ω(n).
 - Worst case (array is reverse sorted): O(n2)O(n^2)O(n2).
 - Average case (no guarantee of sorted input): Θ(n2)\Theta(n^2)Θ(n2).
 
-### Summary:
+### Summary
 
 - **O**: Describes the upper bound, or the worst-case scenario.
 - **Ω**: Describes the lower bound, or the best-case scenario.

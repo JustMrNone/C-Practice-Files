@@ -1,0 +1,4 @@
+
+time complexity refers to the efficiency of an algorithm in terms of how the time required to run the algorithm grows as the size of the input increases. It provides a theoretical estimate of the amount of time an algorithm takes to solve a problem as a function of the input size (denoted as n).
+
+Time complexity is typically expressed using Big O notation (e.g., O(n), O(log n), O(n²)), which helps describe the worst-case scenario or the upper bound on the time it takes for the algorithm to complete. It helps compare the efficiency of different algorithms, especially when dealing with large inputs, and plays a key role in determining the scalability of an algorithm.
