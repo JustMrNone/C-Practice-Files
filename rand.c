@@ -6,10 +6,14 @@ int main() {
     int numbers[20];
     int i;
 
-    // Seed the random number generator with the current time
+    // Seed the random number generator with the current time 
+
+    //srand(time(NULL));
+
     srand(time(0));
 
     // Populate the array with 20 random numbers
+
     for (i = 0; i < 20; i++) {
         numbers[i] = rand() % 100; // Random number between 0 and 99
     }
